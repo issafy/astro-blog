@@ -16,17 +16,13 @@ const name: string = "Name";
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
-		<h3>Bro, how is this working: {name}?</h3>
 	</head>
 	<body>
 		<slot />
 	</body>
 </html>
 <style is:global>
-	:root {
-		--accent: 124, 58, 237;
-		--accent-gradient: linear-gradient(45deg, rgb(var(--accent)), #da62c4 30%, white 60%);
-	}
+	
 	html {
 		font-family: system-ui, sans-serif;
 		background-color: #F6F6F6;

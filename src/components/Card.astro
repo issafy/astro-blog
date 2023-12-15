@@ -10,7 +10,7 @@ const { href, title, body } = Astro.props;
 
 <li class="link-card">
 	<a href={href}>
-		<h2>
+		<h2 class="hover:text-[var(---accent-gradient)] focus-within:text-red-400">
 			{title}
 			<span>&rarr;</span>
 		</h2>
@@ -57,7 +57,7 @@ const { href, title, body } = Astro.props;
 		background-position: 0;
 		background-image: var(--accent-gradient);
 	}
-	.link-card:is(:hover, :focus-within) h2 {
+	/* .link-card:is(:hover, :focus-within) h2 {
 		color: rgb(var(--accent));
-	}
+	} */
 </style>

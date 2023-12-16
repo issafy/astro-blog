@@ -9,11 +9,20 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 ---
 
+<link rel="stylesheet" href="styles.css">
+<article class="m-2 prose">
+
 # My First Blog Post
 
 Published on: 2023-12-16
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+
+<div class="flex justify-center">
+  <image class="w-[500px]" src="/post1.svg">
+</div>
+
+---
 
 ## What I've accomplished
 
@@ -26,3 +35,5 @@ Welcome to my _new blog_ about learning Astro! Here, I will share my learning jo
 ## What's next
 
 I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+
+</article>

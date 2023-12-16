@@ -10,9 +10,22 @@
 		<meta name="generator" content="{Astro.generator}">
 		<title>The Blog</title>
 	</head>
-	<body class="bg-black">
-		<div class="flex justify-center p-2">
-			<h1 class="p-2 rounded-[5px] border-[3px] border-white text-white bg-cyan-900">My Astro Site</h1>
+	<body class="bg-gray-100 p-1">
+		<div class="flex justify-center">
+			<h1 class="text-2xl font-bold border-[3px] border-black rounded-lg mt-2 p-2">My Astro Site</h1>
 		</div>
+	
+		<div class="flex justify-center">
+			<nav class="flex justify-between gap-10 pt-3">
+				<div class="rounded bg-yellow-200 border border-yellow-900 hover:border-yellow-200 hover:bg-yellow-900 text-yellow-900 hover:text-yellow-200 py-1 px-2">
+					<a class="" href="/">Home</a>
+				</div>
+				<div class="rounded bg-yellow-200 border border-yellow-900 hover:border-yellow-200 hover:bg-yellow-900 text-yellow-900 hover:text-yellow-200 py-1 px-2">
+					<a class="" href="/about">About</a>
+				</div>
+			</nav>
+		</div>
+		<div class="bg-gray-600 mt-4 mx-2 w-100 h-[1px]"></div>
+	
 	</body>
 </html>
